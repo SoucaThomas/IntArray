@@ -13,4 +13,3 @@ void setElement(IntArray*, int, int);
 int getLength(IntArray*);
 
 void pushBack(IntArray*, int);
-void resize(IntArray*, int);

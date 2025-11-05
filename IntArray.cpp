@@ -68,14 +68,3 @@ void pushBack(IntArray* A, int value) {
 
   setElement(A, i, value);
 }
-
-// void resize(IntArray* A, int newLength) {
-//   int* newElements = new int[newLength];
-//   for (int i = 0; i < getLength(A); i++) {
-//     newElements[i] = getElement(A, i);
-//   }
-
-//   delete[] A->elements;
-//   A->elements = newElements;
-//   A->n = newLength;
-// }
