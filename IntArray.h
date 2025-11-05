@@ -5,7 +5,7 @@
 
 struct IntArray;
 
-IntArray* Create(int initialValue);
+IntArray* Create(int);
 void Destroy(IntArray*);
 
 int getElement(IntArray*, int);

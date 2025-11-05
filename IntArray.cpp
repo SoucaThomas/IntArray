@@ -46,7 +46,6 @@ void pushBack(IntArray* A, int value) {
   }
 
   if (i == getLength(A)) {
-    // resize(A, lengthA + 1);
     IntArray* B = new IntArray;
     B->n = getLength(A) + 1;
     B->elements = new int[B->n];
